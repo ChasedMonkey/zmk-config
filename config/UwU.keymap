@@ -29,9 +29,9 @@
                 compatible = "zmk,keymap";
                 default_layer {
 // -------------------------------------------------------------------------------------
-// |   Q   |   W   |   F   |   P   |   B   |   |   J   |   L   |   U   |   Y   |   '   |
-// |   A   |   R   |   S   |   T   |   G   |   |   M   |   N   |   E   |   I   |   O   |
-// |   Z   |   X   |   C   |   D   |   V   |   |   K   |   H   |   ,   |   .   |   /   |
+// |   Q   |   W   |   E   |   R   |   T   |   |   Y   |   U   |   I   |   O   |   P   |
+// |   A   |   S   |   D   |   F   |   G   |   |   H   |   J   |   K   |   L   |  BKSP |
+// |   Z   |   X   |   C   |   V   |   B   |   |   N   |   M   |   ,   |   .   |   /   |
 // |  TAB  |       | LOWER |       |  BKSP |   | SPACE | ENTER | RAISE |       |  ESC  |
                         bindings = <
 &kp Q       &kp W      &kp F        &kp P        &kp B       &kp J     &kp L       &kp U        &kp Y      &kp ESC   
