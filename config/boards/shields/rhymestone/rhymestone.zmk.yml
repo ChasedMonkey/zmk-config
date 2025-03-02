@@ -1,6 +1,6 @@
 file_format: "1"
 id: rhymestone
-name: Rhymestone
+name: UwU
 type: shield
 url: 
 requires: [pro_micro]
@@ -8,5 +8,5 @@ features:
   - keys
   - underglow
 siblings:
-  - rhymestone_left
-  - rhymestone_right
+  - UwU_master
+  - UwU_slave
