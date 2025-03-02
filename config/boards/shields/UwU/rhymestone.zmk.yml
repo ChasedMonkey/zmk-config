@@ -1,12 +1,14 @@
 file_format: "1"
-id: rhymestone
+id: uwu
 name: UwU
 type: shield
 url: 
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
   - underglow
+  - display
 siblings:
   - UwU_master
   - UwU_slave
