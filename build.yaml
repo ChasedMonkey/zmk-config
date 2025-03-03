@@ -17,3 +17,5 @@ include:
     shield: UwU_master
   - board: nice_nano_v2
     shield: UwU_slave
+  - board: nice_nano_v2
+    shield: settings_reset
