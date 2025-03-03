@@ -8,18 +8,8 @@
 
 / {
     chosen {
-        zmk,display = &oled_display;
+        zephyr,display = &oled;
     };
-};
-
-&oled_display {
-    compatible = "ssd1306";
-    width = <128>;
-    height = <32>;
-    segment-offset = <0>;
-    page-offset = <0>;
-    rotation = <0>;  // Adjust based on your mounting (0, 90, 180, 270)
-    i2c = <&i2c1>;   // Change based on your board's I2C configuration
 };
 
 &kscan0 {
@@ -30,4 +20,24 @@
 		, <&pro_micro_d 5 GPIO_ACTIVE_HIGH>
 		, <&pro_micro_d 4 GPIO_ACTIVE_HIGH>
 		;
+};
+
+&pro_micro_i2c {
+    status = "okay";
+
+    oled: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        label = "DISPLAY";
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        segment-remap;
+        com-invdir;
+        com-sequential;
+        prechargep = <0x22>;
+    };
 };
