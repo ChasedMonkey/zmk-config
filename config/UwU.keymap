@@ -6,22 +6,6 @@
 &led_strip { chain-length = <20>; };
 
 / {
-    chosen {
-        zmk,display = &oled_display;
-    };
-};
-
-&oled_display {
-    compatible = "ssd1306";
-    width = <128>;
-    height = <32>;
-    segment-offset = <0>;
-    page-offset = <0>;
-    rotation = <0>;  // Adjust based on your mounting (0, 90, 180, 270)
-    i2c = <&i2c1>;   // Change based on your board's I2C configuration
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
