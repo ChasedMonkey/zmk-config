@@ -1,7 +1,7 @@
 if SHIELD_UWU_MASTER
 
 config ZMK_KEYBOARD_NAME
-	default "UwU Keeb"
+	default "UwU Master"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
