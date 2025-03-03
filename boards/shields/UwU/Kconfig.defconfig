@@ -20,15 +20,15 @@ if SHIELD_UWU_MASTER || SHIELD_UWU_SLAVE
 config ZMK_SPLIT
 	default y
  
-if ZMK_DISPLAY
+/ if ZMK_DISPLAY
 
-config I2C
-	default y
+/ config I2C
+/	default y
 
-config SSD1306
-	default y
+/ config SSD1306
+/	default y
 
-endif # ZMK_DISPLAY
+/ endif # ZMK_DISPLAY
 
 if LVGL
 
