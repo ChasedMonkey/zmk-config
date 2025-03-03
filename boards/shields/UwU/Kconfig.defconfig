@@ -29,10 +29,6 @@ config ZMK_DISPLAY
     select LV_USE_LABEL
     select LV_USE_IMG
 
-config SSD1306_REVERSE_MODE
-    bool
-	default n
-
 config I2C
 	default y
 
