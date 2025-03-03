@@ -40,7 +40,7 @@
         display-offset = <0>;
         multiplex-ratio = <31>;
         segment-remap;
-        com-invdir = y;
+        com-invdir = "Y";
         com-sequential;
         prechargep = <0x22>;
     };
