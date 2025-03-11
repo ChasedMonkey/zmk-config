@@ -19,10 +19,10 @@
             // | LCTRL |  LALT |  LGUI | LOWER |  BKSP |   | SPACE | RAISE |  RGUI |  APP  | RCTRL |
 
             bindings = <
-&kp Q         &kp W     &kp E  &kp R    &kp T      &kp Y      &kp U                     &kp I      &kp O    &kp P
-&kp A         &kp S     &kp D  &kp F    &kp G      &kp H      &kp J                     &kp K      &kp L    &kp BSPC
-&mt LSHIFT Z  &kp X     &kp C  &kp V    &kp B      &kp N      &kp M                     &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp LCTRL     &kp LALT  &mo 1  &kp TAB  &kp SPACE  &kp ENTER  &mt RIGHT_SHIFT CAPSLOCK  &mo 2      &kp DEL  &kp LEFT_WIN
+&kp Q         &kp W     &kp E  &kp R    &kp T      &kp Y      &kp U                     &kp I      &kp O          &kp P
+&kp A         &kp S     &kp D  &kp F    &kp G      &kp H      &kp J                     &kp K      &kp L          &kp ENTER
+&mt LSHIFT Z  &kp X     &kp C  &kp V    &kp B      &kp N      &kp M                     &kp COMMA  &kp DOT        &mt RSHIFT SLASH
+&kp LCTRL     &kp LALT  &mo 1  &kp TAB  &kp SPACE  &kp SPACE  &mt RIGHT_SHIFT CAPSLOCK  &mo 2      &kp SEMICOLON  &kp LEFT_WIN
             >;
         };
 
@@ -34,10 +34,10 @@
             // |     |     |     |LOWER| BSP |   |     | AJST|     |     |     |   
 
             bindings = <
-&kp F1          &kp F2   &kp F3   &kp F4  &kp F5         &kp MINUS   &kp EQUAL    &kp LBKT     &kp RBKT  &kp BSLH
-&kp F6          &kp F7   &kp F8   &kp F9  &kp F10        &kp K_COPY  &kp K_CUT    &kp K_PASTE  &kp SEMI  &kp SQT
-&mt LSHIFT F11  &kp F12  &kp ESC  &trans  &kp LA(GRAVE)  &kp DEL     &kp LC(TAB)  &kp LA(TAB)  &trans    &mt RSHIFT GRAVE
-&trans          &trans   &trans   &trans  &trans         &trans      &trans       &mo 3        &trans    &trans
+&kp F1          &kp F2   &kp F3   &kp F4  &kp F5         &kp MINUS    &kp EQUAL    &kp LBKT     &kp RBKT    &kp BSLH
+&kp F6          &kp F7   &kp F8   &kp F9  &kp F10        &kp K_COPY   &kp K_CUT    &kp K_PASTE  &kp DELETE  &kp BACKSPACE
+&mt LSHIFT F11  &kp F12  &kp ESC  &trans  &kp LA(GRAVE)  &kp LC(TAB)  &kp LA(TAB)  &trans       &trans      &mt RSHIFT GRAVE
+&trans          &trans   &trans   &trans  &trans         &trans       &trans       &mo 3        &trans      &trans
             >;
         };
 
