@@ -52,3 +52,10 @@
             ;
     };
 };
+
+/ {
+    keypad_position_map {
+        compatible = "zmk,physical-layout-position-map";
+        complete;
+    };
+};
